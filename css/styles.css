@@ -1,0 +1,306 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  .header-h{
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+
+  .header-h{
+    color: #bb4040;
+  }
+
+  /*CSS Main*/
+
+  /*Sección quien soy*/
+
+  .texto-p1{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    color: #bb4040;
+    margin-left: 135px;
+  }
+
+  .texto-p{
+    font-family: calibri;
+    font-weight: bold;
+    color:#bb4040;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 135px;
+  }
+
+  /*Imagen del programador*/
+
+  .img-p{
+    width: 392px;
+    position: absolute;
+    margin-left: 820px;
+    margin-top: -230px;
+    z-index: 0;
+  }
+
+  /* Sección de servicios*/
+
+.services {
+    height: 600px;
+    background-color: #ffffff;
+    padding: 2% 10% 0px 10%;
+  }
+  .services-text p:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1d1c1c;
+    font-size: 30px;
+  }
+  .services-text p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #424040;
+    font-size: 15px;
+    line-height: 5px;
+  }
+  .services-text p:nth-child(3) {
+    font-family: calibri;
+    color: #7e7d7d;
+  }
+  .services-text {
+    width: 500px;
+    margin: 50px 0px;
+  }
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .box-1,
+  .box-2,
+  .box-3 {
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 18px rgba(26, 25, 25, 0.3);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 4px;
+  }
+  
+  .box-1 {
+    background-image: url("./images/img/p1.jpg");
+  }
+  .box-2 {
+    background-image: url("./images/img/p2.jpg");
+  }
+  .box-3 {
+    background-image: url("./images/img/p3.jpg");
+  }
+  .box-1 span,
+  .box-2 span,
+  .box-3 span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+  }
+  .box-1 p:nth-child(2),
+  .box-2 p:nth-child(2),
+  .box-3 p:nth-child(2) {
+    color: #bb4040;
+    font-family: calibri;
+    font-size: 23px;
+    line-height: 0px;
+  }
+  .box-1 p:nth-child(3),
+  .box-2 p:nth-child(3),
+  .box-3 p:nth-child(3) {
+    font-family: calibri;
+    color: #581a1a;
+    text-align: center;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+  }
+  .box-1 button,
+  .box-2 button,
+  .box-3 button {
+    width: 100px;
+    height: 30px;
+    background-color: #e25555;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+
+  button:active {
+    transform: scale(1.1);
+  }
+  
+/* Sección de Mis Proyectos*/
+
+.mis-proyectos{
+    padding: 2% 10% 0px 10%; /*Moverlo junto al margen de todo*/
+}
+
+.mis-proyectos p:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1d1c1c;
+    font-size: 30px;
+  }
+
+  .mis-proyectos p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #424040;
+    font-size: 15px;
+    line-height: 5px;
+  }
+
+  .mis-proyectos p:nth-child(3) {
+    font-family: calibri;
+    color: #7e7d7d;
+  }
+
+  .mis-proyectos{
+    width: 500px;
+    margin: 50px 0px;
+  }
+
+  .proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .proyecto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*Imágenes de los proyectos*/
+
+  .Ebay{
+    width: 200px;
+  }
+
+  .Hackers{
+    width: 400px;
+  }
+
+  .Spotify{
+    width: 400px;
+  }
+  
+
+  /*Footer*/
+
+  /* Estilos anteriores */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /*Footer contacto*/
+
+  .contactame{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tel{
+    color: white;
+  }
+
+  .email{
+    color: #fff;
+  }
+  
+
+  /*Footer Newsletter*/
+
+   .newsletter {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+
+  .enviar{
+    border-color: #000000;
+    border: solid;
+  }
+
+button:hover{
+    background-color: #aa9393;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s; /*Transicción de color visible en la página a gris rojizo*/
+    cursor: pointer;
+  }
+
+  .newsletter-a{
+    color: #377197;
+  }
+  
+  /* Redes Sociales */
+  
+  .social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfd8d8;
+    margin: 20px 10px;
+    border-radius: 50%;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons i,
+  .social i {
+    color: #000000;
+  }
+  .social-icons a:hover {
+    background-color: black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s; 
+  }
+  .social-icons a:hover i,
+  .social a:hover i {
+    color: #ffffff;
+    transition: all ease 0.5s;
+  }
+
+  /*Fin del css*/
